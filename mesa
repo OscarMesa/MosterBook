@@ -1,0 +1,473 @@
+Last login: Thu Aug 30 17:34:22 on ttys000
+-bash: ‘export: command not found
+MacBook-Pro-de-Oscar-Mesa:~ Oskar$ ls
+Applications        TrianguloPascal.rtf
+Archivos        Universo del discurso.docx
+C++         WebProyectMosterBook
+Class1.rtf        WebstormProjects
+Contraseña.txt        Wine Files
+Desktop         anapoli
+Documents       androi.bash_profile
+Downloads       anitaanita.gif
+Dropbox         app
+GlassFish_Server      blog
+GlassFish_Server1     cloudfoundry
+Gogopoint       copyofClass1.rtf
+Hiren.iso       delete.py
+Idlink          diccionario.java
+Java          homebrew
+JavaVirtualMachines     log.roo
+Learning Objective-C      maraton
+Library         node_modules
+MosterBook        npm-debug.log
+Movies          org-netbeans-modules-gwt4nb-2.10.4.nbm
+Music         oscarmesa
+NetBeansProjects      oskar
+OscarMesa-Cancio.mp3      pag.txt
+Person.java       persons.dat
+Php         pgadmin.log
+Phyton          portada.jpeg
+Pictures        sfs.sql
+Proyectos android     sonnet.in
+PruebaJSF       test
+Public          usb
+Sites
+MacBook-Pro-de-Oscar-Mesa:~ Oskar$ cd ..
+MacBook-Pro-de-Oscar-Mesa:Users Oskar$ ls
+Guest   Oskar   PortDetect.log  Shared
+MacBook-Pro-de-Oscar-Mesa:Users Oskar$ cd /
+MacBook-Pro-de-Oscar-Mesa:/ Oskar$ ls
+Applications
+Developer
+Library
+Manuales e información para el usuario
+Network
+System
+Users
+Volumes
+bin
+cores
+dev
+etc
+home
+mach_kernel
+net
+opt
+private
+sbin
+tmp
+usr
+var
+MacBook-Pro-de-Oscar-Mesa:/ Oskar$ cd Applications/
+MacBook-Pro-de-Oscar-Mesa:Applications Oskar$ ls
+Adium.app
+Adobe
+Adobe Bridge CS5
+Adobe Contribute CS5
+Adobe Device Central CS5
+Adobe Download Assistant.app
+Adobe Dreamweaver CS5
+Adobe Elements 10 Organizer.app
+Adobe Encore CS6
+Adobe Extension Manager CS5
+Adobe Fireworks CS5
+Adobe Flash Builder 4
+Adobe Flash CS5
+Adobe Flash Catalyst CS5
+Adobe Illustrator CS5
+Adobe Media Encoder CS5
+Adobe Media Encoder CS6
+Adobe Media Player.app
+Adobe Photoshop CS5
+Adobe Premiere Elements 10
+Adobe Premiere Pro CS6
+Adobe Reader 9
+Akamai
+Alarm Clock.app
+App Store.app
+AppZapper.app
+Automator.app
+BannerZest Pro.app
+Burnout Paradise.app
+Calculator.app
+Calendar.app
+Chess.app
+CleanMyMac.app
+Contacts.app
+DVD Player.app
+Dashboard.app
+Dictionary.app
+Double-click to upgrade from VMware Fusion 3.app
+Dropbox.app
+Evernote.app
+Ext Designer.app
+FaceTime.app
+FileZilla.app
+Firefox.app
+Flip4Mac
+Font Book.app
+Game Center.app
+GarageBand.app
+Gimp.app
+GitHub (53).app
+Gitbox.app
+Google Chrome.app
+Google Drive.app
+Google Earth.app
+Image Capture.app
+Kigo Video Converter.app
+Launchpad.app
+MAMP
+MAMP PRO
+MacKeeper.app
+Mail.app
+Messages.app
+Microsoft Communicator.app
+Microsoft Messenger.app
+Microsoft Office 2011
+Microsoft Silverlight
+Mission Control.app
+MySQLWorkbench.app
+NetBeans
+Notes.app
+OmniWeb.app
+OnyX.app
+Opera.app
+Photo Booth.app
+PhpStorm.app
+PostgreSQL 9.1
+Preview.app
+Python 3.2
+QuickTime Player.app
+RealPlayer Converter.app
+RealPlayer.app
+Reminders.app
+Remote Desktop Connection.app
+RhoStudio
+Safari.app
+ScreenFlow.app
+Sequel Pro.app
+Skype.app
+Sonicfire Pro 5
+Speed Download 5
+SpeedTools Utilities Pro.app
+Stickies.app
+Sublime Text 2.app
+System Preferences.app
+TeX
+TeamViewer 7
+TextEdit.app
+Time Machine.app
+UMPlayer.app
+Utilities
+VLC.app
+VMware Fusion.app
+Wave Editor.app
+WaveMaker.app
+WebStorm 3.0.app
+Wine.app
+WineBottler.app
+Wondershare Helper Compact
+Wondershare Video Converter.app
+XAMPP
+Xcode.app
+Xilisoft Video Converter Platinum 6.app
+eclipse
+iDVD.app
+iMovie.app
+iPhoto.app
+iTunes.app
+iWeb.app
+iWork '09
+jDownloader.app
+jd
+keka.app
+pagina.html
+pagina_files
+uTorrent.app
+MacBook-Pro-de-Oscar-Mesa:Applications Oskar$ cd XAMPP/
+MacBook-Pro-de-Oscar-Mesa:XAMPP Oskar$ cd htdocs
+MacBook-Pro-de-Oscar-Mesa:htdocs Oskar$ mkdir prueba
+MacBook-Pro-de-Oscar-Mesa:htdocs Oskar$ cd prueba/
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ touch README.md
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git init
+Initialized empty Git repository in /Applications/XAMPP/xamppfiles/htdocs/prueba/.git/
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git add README.md
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git commit -m "first commit"
+[master (root-commit) 3c93429] first commit
+ 0 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git remote add origin https://github.com/OscarMesa/MosterBook.git
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git push -u origin master
+Username for 'github.com': 
+Password for 'github.com': 
+fatal: Authentication failed
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git push -u origin master
+Username for 'github.com': 
+Password for 'github.com': 
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 216 bytes, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/OscarMesa/MosterBook.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git remote add origin https://github.com/OscarMesa/MosterBook.git
+fatal: remote origin already exists.
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ touch Oskar.txt>oscar mesa
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git commit -a -m "commit 1"
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+# Oskar.txt
+# mesa
+# oscar
+nothing added to commit but untracked files present (use "git add" to track)
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git config --global user.name 'OscarMesa'
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git config --global user.email 'oscarmesa.elpoli@gmail.com'
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git push
+Username for 'github.com': 
+Password for 'github.com': 
+Everything up-to-date
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git status
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+# Oskar.txt
+# mesa
+# oscar
+nothing added to commit but untracked files present (use "git add" to track)
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git commit -a
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+# Oskar.txt
+# mesa
+# oscar
+nothing added to commit but untracked files present (use "git add" to track)
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git status
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+# Oskar.txt
+# mesa
+# oscar
+nothing added to commit but untracked files present (use "git add" to track)
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git push
+Username for 'github.com': 
+Password for 'github.com': 
+fatal: Authentication failed
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git add *
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git status
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+# new file:   Oskar.txt
+# new file:   mesa
+# new file:   oscar
+#
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ touch medellin.oscar
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ ls
+Oskar.txt README.md medellin.oscar  mesa    oscar
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git add medellin.oscar 
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git push
+Username for 'github.com': 
+Password for 'github.com': 
+Everything up-to-date
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ status
+-bash: status: command not found
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git status
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+# new file:   Oskar.txt
+# new file:   medellin.oscar
+# new file:   mesa
+# new file:   oscar
+#
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git add *
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git satus
+git: 'satus' is not a git command. See 'git --help'.
+
+Did you mean this?
+  status
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git status
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+# new file:   Oskar.txt
+# new file:   medellin.oscar
+# new file:   mesa
+# new file:   oscar
+#
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git reset HEAD *
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git status
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+# Oskar.txt
+# medellin.oscar
+# mesa
+# oscar
+nothing added to commit but untracked files present (use "git add" to track)
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git add *
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git status
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+# new file:   Oskar.txt
+# new file:   medellin.oscar
+# new file:   mesa
+# new file:   oscar
+#
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git reset HEAD *
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git add *
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git commit -a -m "prueba"
+[master 88947ba] prueba
+ 0 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Oskar.txt
+ create mode 100644 medellin.oscar
+ create mode 100644 mesa
+ create mode 100644 oscar
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git push
+Username for 'github.com': 
+Password for 'github.com': 
+Counting objects: 3, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 271 bytes, done.
+Total 2 (delta 0), reused 0 (delta 0)
+error: RPC failed; result=22, HTTP code = 405
+fatal: The remote end hung up unexpectedly
+fatal: The remote end hung up unexpectedly
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git clone 
+You must specify a repository to clone.
+
+usage: git clone [options] [--] <repo> [<dir>]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --progress            force progress reporting
+    -n, --no-checkout     don't create a checkout
+    --bare                create a bare repository
+    --mirror              create a mirror repository (implies bare)
+    -l, --local           to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    -s, --shared          setup as shared repository
+    --recursive           initialize submodules in the clone
+    --recurse-submodules  initialize submodules in the clone
+    --template <template-directory>
+                          directory from which templates will be used
+    --reference <repo>    reference repository
+    -o, --origin <name>   use <name> instead of 'origin' to track upstream
+    -b, --branch <branch>
+                          checkout <branch> instead of the remote's HEAD
+    -u, --upload-pack <path>
+                          path to git-upload-pack on the remote
+    --depth <depth>       create a shallow clone of that depth
+    --separate-git-dir <gitdir>
+                          separate git dir from working tree
+    -c, --config <key=value>
+                          set config inside the new repository
+
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git clone https://github.com/OscarMesa/MosterBook.git
+Cloning into 'MosterBook'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 3 (delta 0)
+Unpacking objects: 100% (3/3), done.
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git status
+# On branch master
+# Your branch is ahead of 'origin/master' by 1 commit.
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+# MosterBook/
+nothing added to commit but untracked files present (use "git add" to track)
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git status
+# On branch master
+# Your branch is ahead of 'origin/master' by 1 commit.
+#
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+# deleted:    Oskar.txt
+# deleted:    medellin.oscar
+# deleted:    mesa
+# deleted:    oscar
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+# .DS_Store
+# MosterBook/
+no changes added to commit (use "git add" and/or "git commit -a")
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git add *
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ git status
+# On branch master
+# Your branch is ahead of 'origin/master' by 1 commit.
+#
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+# new file:   MosterBook
+#
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#   (commit or discard the untracked or modified content in submodules)
+#
+# modified:   MosterBook (untracked content)
+# deleted:    Oskar.txt
+# deleted:    medellin.oscar
+# deleted:    mesa
+# deleted:    oscar
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+# .DS_Store
+MacBook-Pro-de-Oscar-Mesa:prueba Oskar$ cd MosterBook/
+MacBook-Pro-de-Oscar-Mesa:MosterBook Oskar$ git status
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+# Oskar.txt
+# medellin.oscar
+# mesa
+# oscar
+nothing added to commit but untracked files present (use "git add" to track)
+MacBook-Pro-de-Oscar-Mesa:MosterBook Oskar$ git add *
+MacBook-Pro-de-Oscar-Mesa:MosterBook Oskar$ git commit -m 'commit 1'
+[master 98adf23] commit 1
+ 0 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Oskar.txt
+ create mode 100644 medellin.oscar
+ create mode 100644 mesa
+ create mode 100644 oscar
+MacBook-Pro-de-Oscar-Mesa:MosterBook Oskar$ git status
+# On branch master
+# Your branch is ahead of 'origin/master' by 1 commit.
+#
+nothing to commit (working directory clean)
+MacBook-Pro-de-Oscar-Mesa:MosterBook Oskar$ git push
+Username for 'github.com': 
+Password for 'github.com': 
+Counting objects: 3, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 272 bytes, done.
+Total 2 (delta 0), reused 0 (delta 0)
+To https://github.com/OscarMesa/MosterBook.git
+   3c93429..98adf23  master -> master
+MacBook-Pro-de-Oscar-Mesa:MosterBook Oskar$ 
