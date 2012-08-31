@@ -1,3 +1,2 @@
 $ cat .gitignore
-*.[Oskar.txt]
-*~
+Oskar.txt
